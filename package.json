@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-medium-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/app.js",
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x",
+    "yarn": "1.x"
+  },
+  "scripts": {
+    "start": "cd backend && npm install && npm run start",
+    "heroku-postbuild": "cd frontend && yarn install && yarn build"
+  },
+  "repository": {
+    "type": "git",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

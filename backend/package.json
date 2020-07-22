@@ -1,0 +1,26 @@
+{
+  "name": "comet-assignment-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js",
+    "proStart": "pm2 start app.js --name mcpro",
+    "proStop": "pm2 stop mcpro",
+    "proRestart": "pm2 restart mcpro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json-stringify-safe": "^5.0.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
